@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .value1{
+            width: 200px;
+            height: 200px;
+            border-style: dashed;
+            border-width: 5px;
+            border-color: blue;
+            border-bottom-color: blueviolet;
+            border-left-color: chocolate;
+            border-right-color: yellow;
+            border-radius: 5;
+            border-bottom-left-radius: 50px;
+            border-top-right-radius: 50px;
+            border-bottom-style: double;
+            border-left-style: groove;
+        }
+
+        .vlaue2{
+            border-style: ridge;
+            border-width: 5px;
+            border-color: aqua;
+            border-radius: 5;
+            width: 200px;
+            height: 200px;
+            border-left-color: aquamarine;
+            border-right-color: darkslategray;
+            border-bottom-color: chartreuse;
+            border-bottom-left-radius: 50cap;
+            border-top-right-radius: 50cap;
+            border-left-style: inherit;
+            border-right-style: inherit;
+        }
+
+        .value3{
+            border-style: dashed;
+            border-width: 10px;
+            border-color: crimson;
+            border-radius: 10rcap;
+            width: 150px;
+            height: 150px;
+            border-top-left-radius: 5cqmax;
+            border-bottom-right-radius: 5cqmax;
+            border-left-color: darkgoldenrod;
+            border-right-color: darkorchid;
+            border-bottom-color: rgb(179, 159, 201);
+            border-top-style: initial;
+            border-bottom-style: inset;
+        }
+
+        .value4{
+            border-style: inset;
+            border-width: 5px;
+            border-color: tomato;
+            border-radius:7vw;
+            width: 300px;
+            height: 300px;
+            border-top-left-radius: 200cqi;
+            border-bottom-right-radius: 200cqw;
+            border-top-left-radius: 200cqi;
+            border-bottom-left-radius: 200q;
+            border-top-color: sienna;
+            border-left-color: royalblue;
+            border-bottom-color: plum;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="value1"></div>
+
+    <div class="vlaue2"></div>
+
+    <div class="value3"></div>
+
+    <div class="value4"></div>
+
+</body>
+</html>
