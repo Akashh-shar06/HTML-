@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Position Boxes</title>
+
+  <style>
+    .value1 { 
+      position: relative;
+      width: 100%;
+      height: 600px;
+      border: 1px solid black;
+      margin-top: 20px;
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background: lightblue;
+      border: 1px solid black;
+      position: absolute;
+      text-align: center;
+      padding-top: 7px;   
+    }
+
+    .top-left { top: 0; left: 0; }
+    .top-left:hover {
+        background-image: url('top-left.jpg');
+        background-size: cover; 
+    }
+
+    .top-right { top: 0; right: 0; }
+    .top-right:hover {
+        background-image: url('top-right .jpg');
+        background-size: cover; 
+    }
+
+    .bottom-left { bottom: 0; left: 0; }
+    .bottom-left:hover {
+        background-image: url('bottom-left .jpg');
+        background-size: cover;
+    }
+
+    .bottom-right { bottom: 0; right: 0; }
+    .bottom-right:hover {
+        background-image: url('bottom-right .jpg');
+        background-size: cover; 
+    }
+
+    .middle-row {
+      position: fixed;
+      top: 40%;
+      width: 500px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      padding: 5px 0;
+    }
+
+    .middle-box {
+      width: 100px;
+      height: 100px;
+      background: lightgreen;
+      border: 1px solid black;
+      text-align: center;
+      padding-top: 7px;   
+      position: absolute;
+    }
+
+    .m1 { left: 0; }
+    .m2 { left: 125px; }
+    .m3 { left: 250px; }
+    .m4 { left: 375px; }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="value1">
+    <div class="box top-left">Top Left</div>
+    <div class="box top-right">Top Right</div>
+    <div class="box bottom-left">Bottom Left</div>
+    <div class="box bottom-right">Bottom Right</div>
+   
+    <div class="middle-row">
+      <div class="middle-box m1">M1</div>
+      <div class="middle-box m2">M2</div>
+      <div class="middle-box m3">M3</div>
+      <div class="middle-box m4">M4</div>
+    </div>
+
+  </div>
+
+</body>
+</html>
